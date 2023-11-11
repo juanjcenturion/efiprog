@@ -16,7 +16,7 @@ export default function Header () {
                             placeholder="search"
                             />
                         <button
-                            className="bg-primary border-primary text-white px-8 pt-3 rounded-r-md hover:bg-transparent hover:text-primary transition hidden md:flex">    
+                            className="bg-primary border border-primary pt-3 text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition hidden md:flex">    
                             Search
                         </button>
                     </div>
