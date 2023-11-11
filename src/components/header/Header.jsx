@@ -1,10 +1,13 @@
+import logo from "../../assets/images/logo.svg"
+
+
 export default function Header () {
     return(
         
         <header className="py-4 shadow-sm bg-white">
                 <div className="container flex items-center justify-between">
                     <a href="index.html">
-                    <img src="src/assets/images/logo.svg" alt="Logo" className="w-32"/>
+                    <img src={logo} alt="Logo" className="w-32"/>
                     </a>
 
                     <div className="w-full max-w-xl relative flex container" >
