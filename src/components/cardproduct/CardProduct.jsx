@@ -24,20 +24,20 @@ export default function CardProduct() {
             <div className="grid md:grid-cols-3 grid-cols-2 gap-6">
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
-                        <img src="../assets/images/products/product1.jpg" alt="product 1" className="w-full"/>
-                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        <img src="../assets/images/products/product1.jpg" alt="product 1" className="w-full" />
+                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                         justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="view product">
-                                    <i className="fa-solid fa-magnifying-glass"></i>
-                                </a>
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="add to wishlist">
-                                    <i className="fa-solid fa-heart"></i>
-                                </a>
-                            </div>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="view product">
+                                <i className="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="add to wishlist">
+                                <i className="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
                     </div>
                     <div className="pt-4 pb-3 px-4">
                         <a href="#">
@@ -67,20 +67,20 @@ export default function CardProduct() {
 
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
-                        <img src="../assets/images/products/product2.jpg" alt="product 1" className="w-full"/>
-                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        <img src="../assets/images/products/product2.jpg" alt="product 1" className="w-full" />
+                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                         justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="view product">
-                                    <i className="fa-solid fa-magnifying-glass"></i>
-                                </a>
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="add to wishlist">
-                                    <i className="fa-solid fa-heart"></i>
-                                </a>
-                            </div>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="view product">
+                                <i className="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="add to wishlist">
+                                <i className="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
                     </div>
                     <div className="pt-4 pb-3 px-4">
                         <a href="#">
@@ -110,20 +110,20 @@ export default function CardProduct() {
 
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
-                        <img src="../assets/images/products/product3.jpg" alt="product 1" className="w-full"/>
-                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        <img src="../assets/images/products/product3.jpg" alt="product 1" className="w-full" />
+                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                         justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="view product">
-                                    <i className="fa-solid fa-magnifying-glass"></i>
-                                </a>
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="add to wishlist">
-                                    <i className="fa-solid fa-heart"></i>
-                                </a>
-                            </div>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="view product">
+                                <i className="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="add to wishlist">
+                                <i className="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
                     </div>
                     <div className="pt-4 pb-3 px-4">
                         <a href="#">
@@ -153,20 +153,20 @@ export default function CardProduct() {
 
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
-                        <img src="../assets/images/products/product4.jpg" alt="product 1" className="w-full"/>
-                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        <img src="../assets/images/products/product4.jpg" alt="product 1" className="w-full" />
+                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                         justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="view product">
-                                    <i className="fa-solid fa-magnifying-glass"></i>
-                                </a>
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="add to wishlist">
-                                    <i className="fa-solid fa-heart"></i>
-                                </a>
-                            </div>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="view product">
+                                <i className="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="add to wishlist">
+                                <i className="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
                     </div>
                     <div className="pt-4 pb-3 px-4">
                         <a href="#">
@@ -196,20 +196,20 @@ export default function CardProduct() {
 
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
-                        <img src="../assets/images/products/product5.jpg" alt="product 1" className="w-full"/>
-                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        <img src="../assets/images/products/product5.jpg" alt="product 1" className="w-full" />
+                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                         justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="view product">
-                                    <i className="fa-solid fa-magnifying-glass"></i>
-                                </a>
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="add to wishlist">
-                                    <i className="fa-solid fa-heart"></i>
-                                </a>
-                            </div>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="view product">
+                                <i className="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="add to wishlist">
+                                <i className="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
                     </div>
                     <div className="pt-4 pb-3 px-4">
                         <a href="#">
@@ -239,20 +239,20 @@ export default function CardProduct() {
 
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
-                        <img src="../assets/images/products/product6.jpg" alt="product 1" className="w-full"/>
-                            <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
+                        <img src="../assets/images/products/product6.jpg" alt="product 1" className="w-full" />
+                        <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                         justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="view product">
-                                    <i className="fa-solid fa-magnifying-glass"></i>
-                                </a>
-                                <a href="#"
-                                    className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
-                                    title="add to wishlist">
-                                    <i className="fa-solid fa-heart"></i>
-                                </a>
-                            </div>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="view product">
+                                <i className="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                            <a href="#"
+                                className="text-white text-lg w-9 h-8 rounded-full bg-primary flex items-center justify-center hover:bg-gray-800 transition"
+                                title="add to wishlist">
+                                <i className="fa-solid fa-heart"></i>
+                            </a>
+                        </div>
                     </div>
                     <div className="pt-4 pb-3 px-4">
                         <a href="#">
