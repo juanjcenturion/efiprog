@@ -152,7 +152,7 @@ export default function CardProductM() {
                         </a>
                         <div className="flex items-baseline mb-1 space-x-2">
                             <p className="text-xl text-primary font-semibold">$183.300</p>
-                            <p className="text-sm text-gray-400 line-through">$172.590</p>
+                            <p className="text-sm text-gray-400 line-through">$192.590</p>
                         </div>
                         <div className="flex items-center">
                             <div className="flex gap-1 text-sm text-yellow-400">

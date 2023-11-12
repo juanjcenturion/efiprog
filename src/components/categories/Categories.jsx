@@ -13,7 +13,7 @@ export default function Categories() {
                 </div>
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-2.png" alt="category 1" className="w-full" />
-                    <a href="/shop/MemoriasRam"
+                    <a href="/shop/memoriasram"
                         className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
                         Memorias Ram
                     </a>
@@ -27,7 +27,7 @@ export default function Categories() {
                 </div>
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-4.png" alt="category 1" className="w-full" />
-                    <a href="/shop/PlacasDeVideo"
+                    <a href="/shop/placasdevideo"
                         className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
                         Placas de video
                     </a>

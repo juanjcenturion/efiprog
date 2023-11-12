@@ -25,12 +25,13 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/shop/procesadores' element={<ShopP/>}/>
-          <Route path='/shop/MemoriasRam' element={<ShopMR/>}/>
+          <Route path='/shop/memoriasram' element={<ShopMR/>}/>
           <Route path='/shop/almacenamiento' element={<ShopALM/>}/>
-          <Route path='/shop/PlacasDeVideo' element={<ShopPL/>}/>
+          <Route path='/shop/placasdevideo' element={<ShopPL/>}/>
           <Route path='/shop/monitores' element={<ShopM/>}/>
           <Route path='/shop/notebooks' element={<ShopN/>}/>
           <Route path='/wishlist' element={<WishListPage/>}/>
+          <Route path='/carrito' element={<WishListPage/>}/>
         </Routes>
       </BrowserRouter>
     </>

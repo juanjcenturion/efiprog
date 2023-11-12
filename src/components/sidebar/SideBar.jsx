@@ -1,14 +1,16 @@
+import avatar from "../../assets/images/avatar/User-Avatar.png" 
+
 export default function SideBar() {
     return (
         <div className="col-span-3">
             <div className="px-4 py-3 shadow flex items-center gap-4">
                 <div className="flex-shrink-0">
-                    <img src="../assets/images/avatar.png" alt="profile"
+                    <img src={avatar} alt="profile"
                         className="rounded-full w-14 h-14 border border-gray-200 p-1 object-cover"/>
                 </div>
                 <div className="flex-grow">
-                    <p className="text-gray-600">Hello,</p>
-                    <h4 className="text-gray-800 font-medium">John Doe</h4>
+                    <p className="text-gray-600">Hola,</p>
+                    <h4 className="text-gray-800 font-medium">Facundo</h4>
                 </div>
             </div>
 
@@ -18,16 +20,16 @@ export default function SideBar() {
                         <span className="absolute -left-8 top-0 text-base">
                             <i className="fa-regular fa-address-card"></i>
                         </span>
-                        Manage account
+                        Administrar Cuenta
                     </a>
                     <a href="#" className="relative hover:text-primary block capitalize transition">
-                        Profile information
+                        Informacion del Perfil
                     </a>
                     <a href="#" className="relative hover:text-primary block capitalize transition">
-                        Manage addresses
+                        Gestionar Dirección
                     </a>
                     <a href="#" className="relative hover:text-primary block capitalize transition">
-                        Change password
+                        Cambiar Contraseña
                     </a>
                 </div>
 
@@ -36,16 +38,16 @@ export default function SideBar() {
                         <span className="absolute -left-8 top-0 text-base">
                             <i className="fa-solid fa-box-archive"></i>
                         </span>
-                        My order history
+                        Historial
                     </a>
                     <a href="#" className="relative hover:text-primary block capitalize transition">
-                        My returns
+                        Mis Devoluciones
                     </a>
                     <a href="#" className="relative hover:text-primary block capitalize transition">
-                        My Cancellations
+                        Mis Cancelaciones
                     </a>
                     <a href="#" className="relative hover:text-primary block capitalize transition">
-                        My reviews
+                        Mis Reseñas
                     </a>
                 </div>
 
@@ -54,10 +56,16 @@ export default function SideBar() {
                         <span className="absolute -left-8 top-0 text-base">
                             <i className="fa-regular fa-credit-card"></i>
                         </span>
-                        Payment methods
+                        Metodos de Pago
                     </a>
                     <a href="#" className="relative hover:text-primary block capitalize transition">
-                        voucher
+                        Tarjeta
+                    </a>
+                    <a href="#" className="relative hover:text-primary block capitalize transition">
+                        Paypal
+                    </a>
+                    <a href="#" className="relative hover:text-primary block capitalize transition">
+                        Bitcoins (BTC)
                     </a>
                 </div>
 
@@ -66,7 +74,7 @@ export default function SideBar() {
                         <span className="absolute -left-8 top-0 text-base">
                             <i className="fa-regular fa-heart"></i>
                         </span>
-                        My wishlist
+                        Mi Lista de Deseos
                     </a>
                 </div>
 
@@ -75,7 +83,7 @@ export default function SideBar() {
                         <span className="absolute -left-8 top-0 text-base">
                             <i className="fa-solid fa-right-from-bracket"></i>
                         </span>
-                        Logout
+                        Cerrar Sesión
                     </a>
                 </div>
 
