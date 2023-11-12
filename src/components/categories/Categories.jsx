@@ -13,35 +13,35 @@ export default function Categories() {
                 </div>
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-2.png" alt="category 1" className="w-full" />
-                    <a href="#"
+                    <a href="/shop/MemoriasRam"
                         className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
                         Memorias Ram
                     </a>
                 </div>
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-3.png" alt="category 1" className="w-full" />
-                    <a href="#"
+                    <a href="/shop/almacenamiento"
                         className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
                         Almacenamiento
                     </a>
                 </div>
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-4.png" alt="category 1" className="w-full" />
-                    <a href="#"
+                    <a href="/shop/PlacasDeVideo"
                         className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
                         Placas de video
                     </a>
                 </div>
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-5.png" alt="category 1" className="w-full" />
-                    <a href="#"
+                    <a href="/shop/monitores"
                         className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
                         Monitores
                     </a>
                 </div>
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-6.png" alt="category 1" className="w-full" />
-                    <a href="#"
+                    <a href="/shop/notebooks"
                         className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center text-xl text-white font-roboto font-medium group-hover:bg-opacity-60 transition">
                         Noteboks
                     </a>

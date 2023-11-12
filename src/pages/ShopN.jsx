@@ -1,15 +1,15 @@
 import BreadCrumb from "../components/breadcrumb/BreadCrumb";
-import CardProductP from "../components/cardproduct/CardProductP";
+import CardProductN from "../components/cardproduct/CardProductN";
 import FilterProduct from "../components/filterproduct/FilterProduct";
 
 
-export default function ShopP () {
-    const namePage = 'Procesadores'
+export default function ShopN () {
+    const namePage = 'Notebooks'
     return (
         <div>
             <BreadCrumb text={namePage}/>
             <FilterProduct/>
-            <CardProductP/>
+            <CardProductN/>
         </div>
     )
 }

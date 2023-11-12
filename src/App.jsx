@@ -6,7 +6,13 @@ import NavBar from './components/navbar/NavBar'
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import ShopP from './pages/ShopP'
+import ShopMR from './pages/ShopMR'
+import ShopALM from './pages/ShopALM'
+import ShopPL from './pages/ShopPL'
+import ShopM from './pages/ShopM'
+import ShopN from './pages/ShopN'
 import WishListPage from './pages/WhishList'
+
 
 
 function App() {
@@ -19,6 +25,11 @@ function App() {
           <Route path='/' element={<Home/>}/>
           <Route path='/contact' element={<Contact/>}/>
           <Route path='/shop/procesadores' element={<ShopP/>}/>
+          <Route path='/shop/MemoriasRam' element={<ShopMR/>}/>
+          <Route path='/shop/almacenamiento' element={<ShopALM/>}/>
+          <Route path='/shop/PlacasDeVideo' element={<ShopPL/>}/>
+          <Route path='/shop/monitores' element={<ShopM/>}/>
+          <Route path='/shop/notebooks' element={<ShopN/>}/>
           <Route path='/wishlist' element={<WishListPage/>}/>
         </Routes>
       </BrowserRouter>

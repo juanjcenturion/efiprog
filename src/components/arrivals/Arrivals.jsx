@@ -5,7 +5,7 @@ export default function Arrivals() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             <div className="bg-white shadow rounded overflow-hidden group">
                 <div className="relative">
-                    <img src="src/assets/images/products/Ryzen-9-7000.png" alt="product 1" className="w-full"/>
+                    <img src="src/assets/images/products/lanzamientos/Ryzen-9-7000.png" alt="product 1" className="w-full"/>
                     <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                     justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
                         <a href="#"
@@ -44,7 +44,7 @@ export default function Arrivals() {
             </div>
             <div className="bg-white shadow rounded overflow-hidden group">
                 <div className="relative">
-                    <img src="src/assets/images/products/Asus-Rog.png" alt="product 1" className="w-full"/>
+                    <img src="src/assets/images/products/lanzamientos/Asus-Rog.png" alt="product 1" className="w-full"/>
                     <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                     justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
                         <a href="#"
@@ -83,7 +83,7 @@ export default function Arrivals() {
             </div>
             <div className="bg-white shadow rounded overflow-hidden group">
                 <div className="relative">
-                    <img src="src/assets/images/products/Rtx-4090.png" alt="product 1" className="w-full"/>
+                    <img src="src/assets/images/products/lanzamientos/Rtx-4090.png" alt="product 1" className="w-full"/>
                     <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                     justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
                         <a href="#"
@@ -123,7 +123,7 @@ export default function Arrivals() {
             </div>
             <div className="bg-white shadow rounded overflow-hidden group">
                 <div className="relative">
-                    <img src="src/assets/images/products/Samsung-980-Pro.png" alt="product 1" className="w-full"/>
+                    <img src="src/assets/images/products/lanzamientos/Samsung-980-Pro.png" alt="product 1" className="w-full"/>
                     <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center 
                     justify-center gap-2 opacity-0 group-hover:opacity-100 transition">
                         <a href="#"
