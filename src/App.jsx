@@ -12,6 +12,7 @@ import ShopPL from './pages/ShopPL'
 import ShopM from './pages/ShopM'
 import ShopN from './pages/ShopN'
 import WishListPage from './pages/WhishList'
+import Carrito from './pages/Carrito'
 
 
 
@@ -31,7 +32,7 @@ function App() {
           <Route path='/shop/monitores' element={<ShopM/>}/>
           <Route path='/shop/notebooks' element={<ShopN/>}/>
           <Route path='/wishlist' element={<WishListPage/>}/>
-          <Route path='/carrito' element={<WishListPage/>}/>
+          <Route path='/carrito' element={<Carrito/>}/>
         </Routes>
       </BrowserRouter>
     </>
