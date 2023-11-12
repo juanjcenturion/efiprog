@@ -3,7 +3,7 @@
 export default function NavBar(){
 
     return(
-        <nav className="bg-gray-800">
+        <nav className="nav-bar-color">
             <div className="container flex">
                 <div className="px-8 py-4 bg-primary md:flex items-center cursor-pointer relative group hidden">
                     <span className="text-white">
