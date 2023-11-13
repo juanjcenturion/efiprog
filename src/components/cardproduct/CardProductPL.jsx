@@ -6,7 +6,7 @@ import zotac3070 from "../../assets/images/products/placas/zotac3070.jpg"
 export default function CardProductPL() {
     return (
         <div className="container py-16">
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
                         <img src={msi1650} alt="product 1" className="w-full" />

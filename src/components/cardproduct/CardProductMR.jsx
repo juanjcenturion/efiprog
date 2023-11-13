@@ -7,7 +7,7 @@ import geil from '../../assets/images/products/memorias/geil.jpg'
 export default function CardProductMR() {
     return (
         <div className="container py-16">
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
                         <img src={adata} alt="product 1" className="w-full" />

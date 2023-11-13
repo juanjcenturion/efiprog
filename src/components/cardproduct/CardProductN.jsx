@@ -7,7 +7,7 @@ import dellinspiron from "../../assets/images/products/notebooks/dellinspiron.jp
 export default function CardProductN() {
     return (
         <div className="container py-16">
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
                         <img src={gamerasus} alt="product 1" className="w-full" />

@@ -6,7 +6,7 @@ import asustuf from "../../assets/images/products/monitores/asus24tuf.jpg"
 export default function CardProductM() {
     return (
         <div className="container py-16">
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
                         <img src={samsung24} alt="product 1" className="w-full" />

@@ -7,7 +7,7 @@ import Ryzen5 from "../../assets/images/products/procesadores/ryzen5.jpg"
 export default function CardProductP() {
     return (
         <div className="container py-16">
-            <div className="grid md:grid-cols-4 grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
                 <div className="bg-white shadow rounded overflow-hidden group">
                     <div className="relative">
                         <img src={intelCorei5} alt="product 1" className="w-full" />

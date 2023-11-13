@@ -17,6 +17,7 @@ import Account from './pages/Account'
 import Footer from './components/footer/Footer'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
+import CheckoutPage from './pages/CheckoutPage'
 
 
 
@@ -40,6 +41,7 @@ function App() {
           <Route path='/account' element={<Account/>}/>
           <Route path='/login' element={<LoginPage/>}/>
           <Route path='/register' element={<RegisterPage/>}/>
+          <Route path='/checkout' element={<CheckoutPage/>}/>
         </Routes>
       </BrowserRouter>
       <Footer/>
