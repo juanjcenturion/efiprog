@@ -125,7 +125,7 @@ export default function Checkout() {
                         className="text-primary">Términos y condiciones</a></label>
                 </div>
 
-                <a href="#"
+                <a href="/confirmation"
                     className="block w-full py-3 px-4 text-center text-white bg-primary border border-primary rounded-md hover:bg-transparent hover:text-primary transition font-medium">Comprar</a>
             </div>
 

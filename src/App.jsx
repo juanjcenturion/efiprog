@@ -4,7 +4,6 @@ import './App.css'
 import Header from './components/header/Header'
 import NavBar from './components/navbar/NavBar'
 import Home from './pages/Home'
-import Contact from './pages/Contact'
 import ShopP from './pages/ShopP'
 import ShopMR from './pages/ShopMR'
 import ShopALM from './pages/ShopALM'
@@ -31,7 +30,6 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<Home/>}/>
-          <Route path='/contact' element={<Contact/>}/>
           <Route path='/shop/procesadores' element={<ShopP/>}/>
           <Route path='/shop/memoriasram' element={<ShopMR/>}/>
           <Route path='/shop/almacenamiento' element={<ShopALM/>}/>

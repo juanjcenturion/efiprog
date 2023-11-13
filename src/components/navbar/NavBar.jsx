@@ -41,7 +41,7 @@ export default function NavBar() {
                             </div>
                         </div>
                     </div>
-                    <a href="/login" className="text-gray-200 hover:text-primary transition">Login</a>
+                    <a href="/login" className="text-gray-200 hover:text-primary transition">Iniciar Sesión</a>
                 </div>
             </div>
         </nav>

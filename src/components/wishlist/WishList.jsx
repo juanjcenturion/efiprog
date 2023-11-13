@@ -51,9 +51,9 @@ export default function WishList() {
                     <h2 className="text-gray-800 text-xs md:text-xl font-medium uppercase">MSI GeForce - GTX 1650 - 4GB</h2>
                     <p className="text-gray-500 text-xs md:text-sm">Disponibilidad: <span className="text-red-600">Fuera de Stock</span></p>
                 </div>
-                <div className="text-primary text-lg font-semibold">$204.700</div>
+                <div className="text-primary text-xs font-semibold">$204.700</div>
                 <a href="#"
-                    className="px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">add
+                    className="px-4 py-2 text-center text-xs md:text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">add
                     to cart</a>
 
                 <div className="text-gray-600 cursor-pointer hover:text-primary">
