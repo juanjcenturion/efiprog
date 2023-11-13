@@ -12,8 +12,10 @@ export default function Cart() {
                         <img src={asustuf} alt="product 6" className="w-full" />
                     </div>
                     <div className="w-1/3">
-                        <h2 className="text-gray-800 text-xl font-medium uppercase">ASUS 24 - TUF - VG24VQE</h2>
-                        <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
+                    <a href="/products">
+                            <h2 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">ASUS 24 - TUF - VG24VQE</h2>
+                    </a>
+                    <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
                     <div className="w-1/4 flex items-center">
                         <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>
@@ -32,8 +34,10 @@ export default function Cart() {
                         <img src={corsair} alt="product 6" className="w-full" />
                     </div>
                     <div className="w-1/3">
-                        <h2 className="text-gray-800 text-xl font-medium uppercase">Corsair - DDR4 - 16GB (2x8GB) - 2666MHz</h2>
-                        <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
+                    <a href="/products">
+                            <h2 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">Corsair - DDR4 - 16GB (2x8GB) - 2666MHz</h2>
+                    </a>
+                    <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
                     <div className="w-1/4 flex items-center">
                         <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>
@@ -52,8 +56,10 @@ export default function Cart() {
                         <img src={kingston480} alt="product 6" className="w-full" />
                     </div>
                     <div className="w-1/3">
-                        <h2 className="text-gray-800 text-xl font-medium uppercase">SSD Kingston - 480GB - A400</h2>
-                        <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
+                    <a href="/products">
+                            <h2 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">SSD Kingston - 480GB - A400</h2>
+                    </a>
+                    <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
                     <div className="w-1/4 flex items-center">
                         <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>
@@ -72,8 +78,10 @@ export default function Cart() {
                         <img src={msi1650} alt="product 6" className="w-full" />
                     </div>
                     <div className="w-1/3">
-                        <h2 className="text-gray-800 text-xl font-medium uppercase">MSI GeForce - GTX 1650 - 4GB</h2>
-                        <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
+                    <a href="/products">
+                            <h2 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">MSI GeForce - GTX 1650 - 4GB</h2>
+                    </a>
+                    <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
                     <div className="w-1/4 flex items-center">
                         <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>

@@ -2,7 +2,9 @@
 export default function Categories() {
     return (
         <div className="container py-16">
-            <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">Comprar por Categoria</h2>
+            <dt id="id">
+                <h2 className="text-2xl font-medium text-gray-800 uppercase mb-6">Comprar por Categoria</h2>
+            </dt>
             <div className="grid grid-cols-3 gap-3">
                 <div className="relative rounded-sm overflow-hidden group">
                     <img src="src/assets/images/category/category-1.jpg" alt="Procesadores" className="w-full" />

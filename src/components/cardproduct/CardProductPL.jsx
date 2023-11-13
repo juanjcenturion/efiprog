@@ -25,7 +25,7 @@ export default function CardProductPL() {
                         </div>
                     </div>
                     <div className="pt-4 pb-3 px-4">
-                        <a href="#">
+                        <a href="/products">
                             <h4 className="uppercase font-medium text-xl mb-2 text-gray-800 hover:text-primary transition">MSI GeForce - GTX 1650 - 4GB</h4>
                         </a>
                         <div className="flex items-baseline mb-1 space-x-2">
