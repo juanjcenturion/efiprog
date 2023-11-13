@@ -1,5 +1,4 @@
 import SideBar from "../sidebar/SideBar";
-import WishList from "../wishlist/WishList";
 
 export default function Wrapper(props) {
     return (

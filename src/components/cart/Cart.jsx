@@ -15,6 +15,11 @@ export default function Cart() {
                         <h2 className="text-gray-800 text-xl font-medium uppercase">ASUS 24 - TUF - VG24VQE</h2>
                         <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
+                    <div className="w-1/4 flex items-center">
+                        <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>
+                        <span className="px-3 py-2 text-center text-md border border-gray-300">{1}</span>
+                        <button className="px-3 py-2 text-gray-800 text-md   rounded-r">+</button>
+                    </div>        
                     <div className="text-primary text-lg font-semibold">$183.000</div>
                     <div className="text-gray-600 cursor-pointer hover:text-primary">
                         <i className="fa-solid fa-trash"></i>
@@ -30,6 +35,11 @@ export default function Cart() {
                         <h2 className="text-gray-800 text-xl font-medium uppercase">Corsair - DDR4 - 16GB (2x8GB) - 2666MHz</h2>
                         <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
+                    <div className="w-1/4 flex items-center">
+                        <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>
+                        <span className="px-3 py-2 text-center text-md border border-gray-300">{1}</span>
+                        <button className="px-3 py-2 text-gray-800 text-md   rounded-r">+</button>
+                    </div>   
                     <div className="text-primary text-lg font-semibold">$52.500</div>
                     <div className="text-gray-600 cursor-pointer hover:text-primary">
                         <i className="fa-solid fa-trash"></i>
@@ -45,6 +55,11 @@ export default function Cart() {
                         <h2 className="text-gray-800 text-xl font-medium uppercase">SSD Kingston - 480GB - A400</h2>
                         <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
+                    <div className="w-1/4 flex items-center">
+                        <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>
+                        <span className="px-3 py-2 text-center text-md border border-gray-300">{1}</span>
+                        <button className="px-3 py-2 text-gray-800 text-md   rounded-r">+</button>
+                    </div>   
                     <div className="text-primary text-lg font-semibold">$31.500</div>
                     <div className="text-gray-600 cursor-pointer hover:text-primary">
                         <i className="fa-solid fa-trash"></i>
@@ -60,6 +75,11 @@ export default function Cart() {
                         <h2 className="text-gray-800 text-xl font-medium uppercase">MSI GeForce - GTX 1650 - 4GB</h2>
                         <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                     </div>
+                    <div className="w-1/4 flex items-center">
+                        <button className="px-3 py-2 text-gray-800 text-md  rounded-l">-</button>
+                        <span className="px-3 py-2 text-center text-md border border-gray-300">{1}</span>
+                        <button className="px-3 py-2 text-gray-800 text-md   rounded-r">+</button>
+                    </div>   
                     <div className="text-primary text-lg font-semibold">$204.700</div>
                     <div className="text-gray-600 cursor-pointer hover:text-primary">
                         <i className="fa-solid fa-trash"></i>
@@ -117,8 +137,14 @@ export default function Cart() {
                         <span className="block py-3 text-gray-600 text-sm"> $0.00</span>
                         <hr />
                         <span className="pt-3">$474.700</span>
-                    </div>
                 </div>
             </div>
+              {/* Botón para Pagar (ancho completo) */ }
+        <button
+            className="mt-4 w-full px-6 py-2 text-center text-md text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
+        >
+            Pagar
+        </button>
+    </div >
     );
 }

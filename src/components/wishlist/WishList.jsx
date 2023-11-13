@@ -54,7 +54,7 @@ export default function WishList () {
                 </div>
                 <div className="text-primary text-lg font-semibold">$204.700</div>
                 <a href="#"
-                    className="cursor-not-allowed px-6 py-2 text-center text-sm text-white bg-red-400 border border-red-400 rounded transition uppercase font-roboto font-medium">add
+                    className="px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">add
                     to cart</a>
 
                 <div className="text-gray-600 cursor-pointer hover:text-primary">

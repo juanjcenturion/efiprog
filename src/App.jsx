@@ -18,6 +18,7 @@ import Footer from './components/footer/Footer'
 import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import CheckoutPage from './pages/CheckoutPage'
+import ProductsPage from './pages/ProductsPage'
 
 
 
@@ -42,6 +43,7 @@ function App() {
           <Route path='/login' element={<LoginPage/>}/>
           <Route path='/register' element={<RegisterPage/>}/>
           <Route path='/checkout' element={<CheckoutPage/>}/>
+          <Route path='/products' element={<ProductsPage/>}/>
         </Routes>
       </BrowserRouter>
       <Footer/>
