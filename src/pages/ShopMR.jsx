@@ -3,6 +3,7 @@ import CardProductMR from "../components/cardproduct/CardProductMR";
 import FilterProduct from "../components/filterproduct/FilterProduct";
 
 
+
 export default function ShopMR () {
     const namePage = 'Memorias Ram'
     return (

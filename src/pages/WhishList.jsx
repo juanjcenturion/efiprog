@@ -1,4 +1,6 @@
 import BreadCrumb from "../components/breadcrumb/BreadCrumb";
+import WishList from "../components/wishlist/WishList";
+
 import Wrapper from "../components/wrapper/Wrapper";
 
 export default function WishListPage() {
@@ -6,7 +8,7 @@ export default function WishListPage() {
     return(
         <div>
             <BreadCrumb text={pageName}/>
-            <Wrapper/>
+            <Wrapper component={<WishList/>}/>
         </div>
     )
 }

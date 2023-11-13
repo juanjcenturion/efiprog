@@ -764,6 +764,10 @@ h1, h2, h3, h4, h5, h6 {
   left: 2rem;
 }
 
+.left-10 {
+  left: 4rem;
+}
+
 .top-3 {
   top: 0.75rem;
 }
@@ -801,6 +805,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .z-10 {
   z-index: 10;
+}
+
+.z-50 {
+  z-index: 50;
 }
 
 .col-span-1 {
@@ -1780,6 +1788,17 @@ h1, h2, h3, h4, h5, h6 {
 
   .md\:pl-12 {
     padding-left: 3rem;
+  }
+
+  .md\:text-xl{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .md\:card-account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
   }
 }
 

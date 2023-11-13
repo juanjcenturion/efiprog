@@ -2,7 +2,7 @@ import avatar from "../../assets/images/avatar/User-Avatar.png"
 
 export default function SideBar() {
     return (
-        <div className="col-span-3">
+        <div className="grid col-span-3">
             <div className="px-4 py-3 shadow flex items-center gap-4">
                 <div className="flex-shrink-0">
                     <img src={avatar} alt="profile"

@@ -8,15 +8,15 @@ import msi1650 from "../../assets/images/products/placas/msi1650.jpg"
 export default function WishList () {
     return (
         <div className="col-span-9 space-y-4">
-            <div className="flex items-center justify-between border gap-6 p-4 border-gray-200 rounded">
+            <div className="flex items-center flex-col justify-between border gap-6 p-4 border-gray-200 rounded">
                 <div className="w-28">
                     <img src={asustuf} alt="product 6" className="w-full"/>
                 </div>
                 <div className="w-1/3">
-                    <h2 className="text-gray-800 text-xl font-medium uppercase">ASUS 24 - TUF - VG24VQE</h2>
+                    <h2 className="text-gray-800  text-xs font-medium uppercase md:text-xl ">ASUS 24 - TUF - VG24VQE</h2>
                     <p className="text-gray-500 text-sm">Disponibilidad: <span className="text-green-600">En Stock</span></p>
                 </div>
-                <div className="text-primary text-lg font-semibold">$183.000</div>
+                <div className="text-primary text-xs font-semibold md:text-xl">$183.000</div>
                 <a href="#"
                     className="px-6 py-2 text-center text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">add
                     to cart</a>

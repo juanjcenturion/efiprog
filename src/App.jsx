@@ -13,6 +13,10 @@ import ShopM from './pages/ShopM'
 import ShopN from './pages/ShopN'
 import WishListPage from './pages/WhishList'
 import Carrito from './pages/Carrito'
+import Account from './pages/Account'
+import Footer from './components/footer/Footer'
+import LoginPage from './pages/LoginPage'
+import RegisterPage from './pages/RegisterPage'
 
 
 
@@ -33,8 +37,12 @@ function App() {
           <Route path='/shop/notebooks' element={<ShopN/>}/>
           <Route path='/wishlist' element={<WishListPage/>}/>
           <Route path='/carrito' element={<Carrito/>}/>
+          <Route path='/account' element={<Account/>}/>
+          <Route path='/login' element={<LoginPage/>}/>
+          <Route path='/register' element={<RegisterPage/>}/>
         </Routes>
       </BrowserRouter>
+      <Footer/>
     </>
   )
 }
