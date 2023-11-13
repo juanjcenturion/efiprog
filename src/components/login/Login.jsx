@@ -64,20 +64,20 @@ export default function Login() {
           </div>
           <div className="mt-4 flex gap-4">
             <a
-              href="#"
+              href="https://www.facebook.com"
               className="w-1/2 py-2 text-center text-white bg-blue-800 rounded uppercase font-roboto font-medium text-sm hover:bg-blue-700"
             >
               Facebook
             </a>
             <a
-              href="#"
+              href="https://www.google.com.ar"
               className="w-1/2 py-2 text-center text-white bg-red-600 rounded uppercase font-roboto font-medium text-sm hover:bg-red-500"
             >
               Google
             </a>
           </div>
           <p className="mt-4 text-center text-gray-600">
-            <a href="register.html" className="text-primary">
+            <a href="/register" className="text-primary">
               Registrarme
             </a>
           </p>

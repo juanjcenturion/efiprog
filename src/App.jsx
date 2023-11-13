@@ -19,6 +19,7 @@ import LoginPage from './pages/LoginPage'
 import RegisterPage from './pages/RegisterPage'
 import CheckoutPage from './pages/CheckoutPage'
 import ProductsPage from './pages/ProductsPage'
+import ConfirmationPage from './pages/ConfirmationPage'
 
 
 
@@ -44,6 +45,7 @@ function App() {
           <Route path='/register' element={<RegisterPage/>}/>
           <Route path='/checkout' element={<CheckoutPage/>}/>
           <Route path='/products' element={<ProductsPage/>}/>
+          <Route path='/confirmation' element={<ConfirmationPage/>}/>
         </Routes>
       </BrowserRouter>
       <Footer/>

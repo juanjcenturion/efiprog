@@ -20,28 +20,28 @@ export default function NavBar() {
                             {/* Dropdown */}
                             <div
                                 className="absolute left-5 z-50 top-full opacity-100 text-white nav-bar-color shadow-md py-3 divide-y divide-gray-300 divide-dashed group-hover:opacity-100 transition duration-300 invisible group-hover:visible">
-                                <a href="#" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
+                                <a href="/shop/procesadores" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
                                     <span className="ml-1 text-sm">Procesadores</span>
                                 </a>
-                                <a href="#" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
+                                <a href="/shop/memoriasram" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
                                     <span className="ml-1 text-sm">Memorias Ram</span>
                                 </a>
-                                <a href="#" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
+                                <a href="/shop/almacenamiento" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
                                     <span className="ml-1 text-sm">Almacenamiento</span>
                                 </a>
-                                <a href="#" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
+                                <a href="/shop/placasdevideo" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
                                     <span className="ml-1 text-sm">Placas de Video</span>
                                 </a>
-                                <a href="#" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
+                                <a href="/shop/monitores" className="flex items-center justify-start px-6 py-3 hover:text-primary transition">
                                     <span className="ml-1 marker:text-sm">Monitores</span>
                                 </a>
-                                <a href="#" className="flex items-center  justify-start px-6 py-3 hover:text-primary transition">
+                                <a href="/shop/notebooks" className="flex items-center  justify-start px-6 py-3 hover:text-primary transition">
                                     <span className="ml-1 text-sm">Notebooks</span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <a href="#" className="text-gray-200 hover:text-primary transition">Login</a>
+                    <a href="/login" className="text-gray-200 hover:text-primary transition">Login</a>
                 </div>
             </div>
         </nav>
