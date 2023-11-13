@@ -787,6 +787,11 @@ h1, h2, h3, h4, h5, h6 {
   right: -0.75rem;
 }
 
+.-right-4 {
+  right: -1.5rem;
+}
+
+
 .left-0 {
   left: 0px;
 }
@@ -1121,6 +1126,10 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
 }
 
+.justify-end {
+  justify-content: end;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -1151,6 +1160,10 @@ h1, h2, h3, h4, h5, h6 {
 
 .gap-8 {
   gap: 2rem;
+}
+
+.gap-9 {
+  gap: 50rem;
 }
 
 .space-x-4 > :not([hidden]) ~ :not([hidden]) {
