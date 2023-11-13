@@ -45,10 +45,13 @@ export default function PurchaseConfirmation() {
                 className="w-3/5 justify-center container px-4 py-6 mt-6 border rounded-md flex"
                 placeholder="Ingrese su comentario aqui"
               ></textarea>
-              <button
-            className="mt-4 w-3/5 py-2 px-4 text-center text-md container flex justify-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
-            >Valorar y salir</button>
+              <a href="/">
+                <button
+                  className="mt-4 w-3/5 py-2 px-4 text-center text-md container flex justify-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium"
+                  >Valorar y salir</button>
+              </a>
             </div>
+
           </section>
         </div>
     </div>

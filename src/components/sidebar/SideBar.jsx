@@ -74,7 +74,7 @@ export default function SideBar() {
                         <span className="absolute -left-8 top-0 text-base">
                             <i className="fa-regular fa-heart"></i>
                         </span>
-                        Mi Lista de Deseos
+                        Mi lista de favoritos
                     </a>
                 </div>
 

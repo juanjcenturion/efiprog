@@ -3,13 +3,16 @@ import logo from '../../assets/images/logo.svg'
 
 export default function Footer (){
     return(
-        <footer className="bg-white pt-16 pb-12 border-t border-gray-100">
+        <footer className="bg-white pt-4 pb-12 border-t border-gray-100">
         <div className="container grid grid-cols-1 ">
             <div className="col-span-1 space-y-4">
                 <img src={logo} alt="logo" className="w-28"/>
                 <div className="mr-2">
                     <p className="text-gray-500">
                         Haz realidad tus proyectos informáticos con la calidad y rendimiento que mereces
+                    </p>
+                    <p className=" pt-4 text-gray-500">
+                        Contacto:
                     </p>
                 </div>
                 <div className="flex space-x-5">
@@ -20,7 +23,10 @@ export default function Footer (){
                     <a href="#" className="text-gray-400 hover:text-gray-500"><i
                             className="fa-brands fa-twitter-square"></i></a>
                     <a href="#" className="text-gray-400 hover:text-gray-500">
-                        <i className="fa-brands fa-github-square"></i>
+                        <i className="fa-regular fa-envelope"></i>
+                    </a>
+                    <a href="#" className="text-gray-400 hover:text-gray-500">
+                        <i className="fa-brands fa-square-whatsapp"></i>
                     </a>
                 </div>
             </div>

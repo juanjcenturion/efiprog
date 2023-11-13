@@ -19,7 +19,7 @@ export default function WishList() {
                 </div>
                 <div className="text-primary text-xs font-semibold md:text-lg">$183.000</div>
                 <a href="#" className="px-4 py-2 text-center text-xs md:text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">
-                    add to cart
+                    Agregar al carrito
                 </a>
                 <div className="text-gray-600 cursor-pointer hover:text-primary">
                     <i className="fa-solid fa-trash"></i>
@@ -36,7 +36,7 @@ export default function WishList() {
                 </div>
                 <div className="text-primary text-xs font-semibold md:text-lg">$20.800</div>
                 <a href="#" className="px-4 py-2 text-center text-xs md:text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">
-                    add to cart
+                    Agregar al carrito
                 </a>
                 <div className="text-gray-600 cursor-pointer hover:text-primary">
                     <i className="fa-solid fa-trash"></i>
@@ -53,8 +53,7 @@ export default function WishList() {
                 </div>
                 <div className="text-primary text-xs font-semibold">$204.700</div>
                 <a href="#"
-                    className="px-4 py-2 text-center text-xs md:text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">add
-                    to cart</a>
+                    className="px-4 py-2 text-center text-xs md:text-sm text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">Agregar al carrito</a>
 
                 <div className="text-gray-600 cursor-pointer hover:text-primary">
                     <i className="fa-solid fa-trash"></i>
