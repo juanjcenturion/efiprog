@@ -6,7 +6,7 @@ export default function Header () {
         
         <header className="py-4 shadow-sm bg-white">
                 <div className="container flex items-center justify-between">
-                    <a href="/">
+                    <a href="index.html">
                     <img src={logo} alt="Logo" className="w-32"/>
                     </a>
 
@@ -43,7 +43,7 @@ export default function Header () {
                                 className="absolute -right-3 -top-1 w-5 h-5 rounded-full flex items-center justify-center bg-primary text-white text-xs">
                                 4</div>
                         </a>
-                        <a href="/account" className="text-center text-gray-700 hover:text-primary transition relative">
+                        <a href="/" className="text-center text-gray-700 hover:text-primary transition relative">
                             <div className="text-2xl">
                                 <i className="fa-regular fa-user"></i>
                             </div>
